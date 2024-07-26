@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    font-family: "Josefin Sans", sans-serif !important;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.bg-todoList{
+    background-image: url("../Images/glenn-carstens-peters-RLw-UC03Gwc-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+/*.bg-todolist-overlay{
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(24, 23, 23, 0.5);
+    z-index: 1;
+}*/
+.bg-todoList-card{
+    background-color: #fff;
+    height: 100vh;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.bg-todolist-input-card{
+    background-color: rgb(212, 136, 136);
+    padding: 40px;
+    
+}
+.todo-main-heading{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.todo-user-input {
+    background-color: white;
+    width: 100%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e4e7eb;
+    border-radius: 5px;
+    padding: 15px;
+}
+.todo-list-button{
+    color: #fff;
+    background-color: #4c63b6;
+    font-size: 18px;
+    border-width: 0px;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px;
+    font-weight: 600;
+}
+.todo-items-heading{
+    font-size: 32px;
+    font-weight: 700;
+    
+
+}
+.todo-items-container{
+    padding: 0px;
+}
+.label-container{
+    background-color: rgb(212, 136, 136);
+    width: 100%;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #E20202;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+    border-radius: 4px;
+    margin: 10px;
+    color: #fff;
+    font-weight: bold;
+}
+.checkbox-input{
+    width: 22px;
+    
+}
+.todo-list-image{
+    height: 100vh;
+    
+}
+.checkbox-label{
+    font-size: 16px;
+    font-weight: 400;
+    width: 82%;
+    margin: 0px;
+    padding-top: 16px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+    
+}
+.delete-icon-container {
+    text-align: right;
+    width: 18%;
+    font-size: 20px;
+}
+.edit-icon-container{
+    text-align: right;
+    width: 18%;
+    padding-top: 12px;
+    font-size: 20px;
+}
+.edit-icon{
+    padding: 15px;
+}
+
+.delete-icon {
+    padding: 15px;
+}
+.checked{
+    text-decoration: line-through;
+}
